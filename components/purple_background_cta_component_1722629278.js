@@ -9,11 +9,14 @@ Vue.component("purple_background_cta_component_1722629278", {
             <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
                 <!-- Radial gradient -->
                 <!-- Rock-themed background -->
-                <div id="rock-background" class="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-600 opacity-80"></div>
-                <div id="rock-texture" class="absolute inset-0 bg-repeat opacity-20" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiM4ODgiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=');"></div>
-                <!-- Blurred shape -->
-                <!-- Rock formation -->
-                <div id="rock-formation" class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-gray-900 to-transparent"></div>
+                <div id="rock-background" class="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900"></div>
+                <div id="rock-pile" class="absolute inset-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-full h-full opacity-20">
+                        <path d="M0 1000 L50 900 L150 950 L250 850 L350 900 L450 800 L550 850 L650 750 L750 800 L850 700 L950 750 L1000 650 L1000 1000 Z" fill="#4B5563"/>
+                        <path d="M0 1000 L100 950 L200 1000 L300 900 L400 950 L500 850 L600 900 L700 800 L800 850 L900 750 L1000 800 L1000 1000 Z" fill="#374151"/>
+                        <path d="M0 1000 L75 925 L175 975 L275 875 L375 925 L475 825 L575 875 L675 775 L775 825 L875 725 L975 775 L1000 725 L1000 1000 Z" fill="#1F2937"/>
+                    </svg>
+                </div>
                 <!-- Content -->
                 <div id="content" class="max-w-3xl mx-auto text-center">
                     <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Trade, Collect, and Conquer the Rock Market</div></div>
@@ -28,10 +31,10 @@ Vue.component("purple_background_cta_component_1722629278", {
             return {
                 expanded: false, 
                 tab: null,
-                radialGradientPrimaryStyle: "bg-gray-800",
-                radialGradientSecondaryStyle: "bg-gray-600",
-                stopColorPrimaryStyle: "#1F2937",
-                stopColorSecondaryStyle: "#4B5563",
+                radialGradientPrimaryStyle: "bg-gray-900",
+                radialGradientSecondaryStyle: "bg-gray-700",
+                stopColorPrimaryStyle: "#111827",
+                stopColorSecondaryStyle: "#374151",
                 transparentTextStyle: "text-transparent",
                 contentSubtitleStyle: "bg-gradient-to-r from-gray-300 to-gray-100",
                 contentCtaTitleStyle: "bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-200",
