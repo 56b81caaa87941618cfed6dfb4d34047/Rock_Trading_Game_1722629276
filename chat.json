@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific type of rock or geological theme in mind for the background?\", \"option1\": \"Yes, I'd like a specific type of rock (please specify).\", \"option2\": \"No, a general rock theme will suffice.\"}, {\"question 2\": \"Would you like the rock theme to be realistic or more cartoonish/stylized?\", \"option1\": \"Realistic, please.\", \"option2\": \"Cartoonish/Stylized.\"}], \"input_token_count\": 365, \"output_token_count\": 112, \"time_taken\": \"0:00:04.396444\"}",
+        "message_id": "guest02082024201127",
+        "timestamp": "02082024201132",
+        "component_file_name": "purple_background_cta_component_1722629278",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Acknowledged, working on making it rock-themed.",
         "message_id": "guest02082024201127",
