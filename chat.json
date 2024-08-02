@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll make it look like a pile of rocks.",
+        "message_id": "guest02082024200913",
+        "timestamp": "02082024200913",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "It doesn't look like rocks to me, can you make it look like a pile of rocks",
         "message_id": "guest02082024200913",
