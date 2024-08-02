@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: make this background rock themed\nAI: Sure, I'll work on making the background rock themed.\nThis is the user's current request of changes to be made: It doesn't look like rocks to me, can you make it look like a pile of rocks"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\nCan you describe the project a bit more?\nUser: try again\nAI: Understood, I'll make it video game themed.\nAI: Sure, I'll make it look like a pile of rocks.\nUser: It doesn't look like rocks to me, can you make it look like a pile of rocks\nAI: Sure, I'll work on making the background rock themed.\nUser: make this background rock themed\nThis is the user's current request of changes to be made: make it rock themed"
     }
 ]
