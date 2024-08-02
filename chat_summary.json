@@ -48,5 +48,11 @@
         "content": "Understood, I'll make it video game themed.",
         "timestamp": "02082024200943",
         "message_id": "guest02082024200943"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the video game theme to incorporate elements from a specific genre or era in gaming history?\", \"option1\": \"Yes, I'd like elements from a specific genre/era.\", \"option2\": \"No, a general video game theme will do.\"}, {\"question 2\": \"Should the video game theming be integrated into the entire app or only specific sections (such as the homepage or backgrounds)?\", \"option1\": \"Integrate throughout the entire app.\", \"option2\": \"Only in specific sections.\"}], \"input_token_count\": 341, \"output_token_count\": 120, \"time_taken\": \"0:00:04.387760\"}",
+        "timestamp": "02082024200948",
+        "message_id": "guest02082024200943"
     }
 ]
