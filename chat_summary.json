@@ -12,5 +12,11 @@
         "content": "make this background rock themed",
         "timestamp": "02082024200833",
         "message_id": "guest02082024200833"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll work on making the background rock themed.",
+        "timestamp": "02082024200833",
+        "message_id": "guest02082024200833"
     }
 ]
