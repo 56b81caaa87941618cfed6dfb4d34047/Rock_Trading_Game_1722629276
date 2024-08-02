@@ -30,5 +30,11 @@
         "content": "It doesn't look like rocks to me, can you make it look like a pile of rocks",
         "timestamp": "02082024200913",
         "message_id": "guest02082024200913"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll make it look like a pile of rocks.",
+        "timestamp": "02082024200913",
+        "message_id": "guest02082024200913"
     }
 ]
